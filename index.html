@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Diplomata&family=Lexend+Deca:wght@100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <meta
+      name="description"
+      content="personal home web page for sean behan describing his hobbies, running and academic career"
+    />
+    <meta name="author" content="Sean Behan" />
+    <title>Behan's Blog</title>
+  </head>
+  <body>
+    <section class="name-animation">
+      <div class="countdown">
+        <span class="on-your-mark">On your Mark...</span>
+        <span class="get-set">Get Set...</span>
+        <span class="go">GO!!</span>
+      </div>
+      <div class="sticky-wrapper">
+        <div class="name">
+          <span class="letter">S</span><span class="letter">e</span
+          ><span class="letter">a</span><span class="letter">n</span
+          ><span class="letter"> B</span><span class="letter">e</span
+          ><span class="letter">h</span><span class="letter">a</span
+          ><span class="letter">n</span>
+        </div>
+        <div class="running-images">
+          <div class="starting-runner">
+            <img
+              src="images/block-start-runner.png"
+              alt="Track runner about to sprint in the block start position"
+              width="400"
+              height="300"
+            />
+          </div>
+          <div class="currently-running">
+            <img
+              src="images/actual-running.png"
+              alt="track runner currently running across the screen"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <header class="heading">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand">BEHAN'S BLOG</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="experience.html">CS Career</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="running.html">Running Career</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobbies.html">Hobbies</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main-style container-fluid px-0">
+      <!-- Intro Section -->
+      <article class="sean-intro-container row mx-0 align-items-center">
+        <section class="sean-intro-picture col-12 col-md-5 text-center">
+          <img
+            src="images/sean-html-pic.jpg"
+            alt="Sean Behan Smiling Casually Headshot Picture"
+            class="img-fluid"
+          />
+        </section>
+        <section class="sean-intro-text col-12 col-md-7">
+          <h2>Hi!</h2>
+          <h2>I'm Sean Behan</h2>
+          <p class="sean-tagline">
+            Aspiring Software Engineer · Distance Runner · Story Enthusiast
+          </p>
+          <p>
+            I'm a rising third year at Northeastern studying CS. I'm one of
+            three triplet brothers (yeah, really, and they're my two best
+            friends), and I've been distance running for five years, training
+            for my first marathon this April. But honestly, the thing that
+            shaped me most isn't the code or the miles. It's stories. The video
+            games whose scripts stick with me for months. The films where the
+            score and image feel like one thing. The music I keep coming back to
+            because it sets the mood for an entire week. Whether I'm coding,
+            running, or hanging out with my brothers playing something new, the
+            games, movies, and music I love are basically who I am.
+          </p>
+          <a
+            href="pdf/Behan-Sean-Resume.pdf"
+            target="_blank"
+            class="btn btn-outline-dark pill-btn"
+          >
+            View Resume
+          </a>
+        </section>
+      </article>
+
+      <!-- Quick Highlights Section -->
+      <section class="quick-highlights">
+        <div class="highlight-item">
+          <span class="highlight-number">3rd Year</span>
+          <span class="highlight-label">CS at Northeastern</span>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-number">Co-op</span>
+          <span class="highlight-label">Software Engineer at Bevi</span>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-number">1:17:12</span>
+          <span class="highlight-label">Half-Marathon PR</span>
+        </div>
+      </section>
+
+      <!-- Carousel Section -->
+      <section class="carousel">
+        <h3 class="carousel-header">Fun Pictures of My Life!</h3>
+        <ol>
+          <li>
+            <img
+              src="images/barcelona-pic.jpeg"
+              alt="Picture of Sean and his friends at the top of Monserrat in Spain"
+            />
+          </li>
+          <li>
+            <img
+              src="images/frosty-half-marathon.jpeg"
+              alt="Sean and the Northeastern run club team taking a picture after the Frosty Half Marathon in Massachusetts"
+            />
+          </li>
+          <li>
+            <img
+              src="images/nucr-formal.jpeg"
+              alt="Picture of Sean and his hometown friends at a Northeastern Club Running Formal"
+            />
+          </li>
+          <li>
+            <img
+              src="images/triplets.jpeg"
+              alt="Picture of Sean and his two triplet brothers, Kyle and Ryan"
+            />
+          </li>
+          <li>
+            <img
+              src="images/spring-nationals.JPG"
+              alt="2025 Northeastern Run Club Spring Nationals picture of sean before race"
+            />
+          </li>
+          <li>
+            <img
+              src="images/Halloween.JPEG"
+              alt="Sean and his northeastern friends during 2026 Halloween (sean is dressed as Woody)"
+            />
+          </li>
+          <li>
+            <img
+              src="images/dialouge.JPG"
+              alt="Sean and his Study Abroad friends (from Belgium) hanging out at Northeastern"
+            />
+          </li>
+        </ol>
+        <div class="carousel-controls">
+          <section class="carousel-buttons">
+            <button
+              type="button"
+              class="btn btn-outline-dark left-next-button"
+              style="border-radius: 50px"
+            >
+              &lt;
+            </button>
+            <p class="carousel-caption"></p>
+            <button
+              type="button"
+              class="btn btn-outline-dark right-next-button"
+              style="border-radius: 50px"
+            >
+              &gt;
+            </button>
+          </section>
+        </div>
+      </section>
+
+      <!-- Learn More Section -->
+      <section class="redirection">
+        <h2 class="about-me-header">Learn More About Me</h2>
+        <div class="row mx-0 mb-5">
+          <div class="col-12 col-md-4 running text-center">
+            <img
+              src="images/brown-meet.jpeg"
+              alt="Sean running at xc nationals 2026 for northeastern club running"
+              class="img-fluid section-img"
+            />
+            <a
+              href="running.html"
+              class="btn btn-outline-dark pill-btn mt-4 mb-3"
+            >
+              Running
+            </a>
+            <p>
+              Running is a core part of who I am. I have been running for 5
+              years and have not looked back. Although young in my career, I
+              have accomplished much. Check out my feats by clicking the button
+              above!
+            </p>
+          </div>
+          <div class="col-12 col-md-4 experience text-center">
+            <img
+              src="images/khoury-image.jpg"
+              alt="Khoury college sign at northeastern University with students walking by"
+              class="img-fluid section-img"
+            />
+            <a
+              href="experience.html"
+              class="btn btn-outline-dark pill-btn mt-4 mb-3"
+            >
+              Computer Science
+            </a>
+            <p>
+              I am a third year Computer Science student at Northeastern
+              University, working to get my Masters in Computer Science. I have
+              a passion for taking recorded user data and turning it into a
+              digestable and informative expirence for the user. Click the
+              button above to learn more!
+            </p>
+          </div>
+          <div class="col-12 col-md-4 gaming text-center">
+            <img
+              src="images/last-of-us-picture.jpeg"
+              alt="Last of Us 2 PlayStation 4 remaster cover picture"
+              class="img-fluid section-img"
+            />
+            <a
+              href="hobbies.html"
+              class="btn btn-outline-dark pill-btn mt-4 mb-3"
+            >
+              Hobbies
+            </a>
+            <p>
+              I have been gaming with my friends and brothers for my entire
+              life. I grew up with games like Minecraft and console's like Wii
+              and Xbox. I always love trying new genre's of games and exploring
+              new areas I haven't before. Click the button above to learn more!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-style">
+      <h3>Reach Out</h3>
+      <ul>
+        <li>Email: swbehan@gmail.com</li>
+        <li>
+          github:
+          <a href="https://github.com/swbehan">https://github.com/swbehan</a>
+        </li>
+        <li>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/sean-behan-/"
+            >https://www.linkedin.com/in/sean-behan-/</a
+          >
+        </li>
+      </ul>
+    </footer>
+    <script type="module" src="./js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

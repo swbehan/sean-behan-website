@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Diplomata&family=Lexend+Deca:wght@100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <meta
+      name="description"
+      content="personal page for sean behan describing in detail his professional CS career at northeastern and his co-op experience"
+    />
+    <meta name="author" content="Sean Behan" />
+    <title>CS Career</title>
+  </head>
+  <body>
+    <!-- ===================== HEADER / NAVBAR ===================== -->
+    <header class="heading">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand">BEHAN'S BLOG</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="experience.html">CS Career</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="running.html">Running Career</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobbies.html">Hobbies</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ===================== PROFESSIONAL INTRO SECTION ===================== -->
+      <section class="sean-professional-intro-section">
+        <img
+          src="images/sean-professional-img.PNG"
+          alt="professional headshot of sean behan used as primary picture for cs related picture"
+          class="sean-professional-image"
+        />
+        <h3 class="typewriter">Aspiring Software Systems Engineer</h3>
+
+        <section class="message-container">
+          <div class="message-bubble left-bubble">
+            Ever since I was little, I was the kid who would buy a Lego set,
+            follow the instructions once, then tear it apart and build something
+            completely different. No blueprint, no defined path, just figuring
+            it out as I went. I think that mindset is exactly why software
+            engineering clicked for me the way it did.
+          </div>
+          <div class="message-bubble right-bubble">
+            I love to code. Whether it is building a full stack web app,
+            designing a front end experience, or writing logic for a simple
+            game, I genuinely enjoy sitting in the details and solving the
+            problem in front of me. But what excites me even more than writing
+            code is the system around it. The software development cycle, the
+            tooling, the workflows that determine how fast and how well a team
+            can ship software.
+          </div>
+          <div class="message-bubble left-bubble">
+            At my co-op at Bevi, I got a real taste of this. Using tools like
+            CircleCI, Testmo, Slack, and AI to optimize testing pipelines showed
+            me how much the right infrastructure impacts not just the
+            engineering team, but the pace of an entire company. That
+            intersection of code, systems thinking, and tooling is where I want
+            to build my career.
+          </div>
+          <div class="message-bubble right-bubble">
+            I am also drawn to the user side of software. Finding ways to take
+            raw data and turn it into something intuitive and meaningful for the
+            person using it is a challenge I find deeply interesting. My goal is
+            to work as a software systems engineer or front end engineer, with a
+            focus on building better workflows and better experiences in the age
+            of AI.
+          </div>
+          <div class="message-bubble left-bubble">
+            Want to view my <a href="pdf/Behan-Sean-Resume.pdf">Resume</a>?
+          </div>
+        </section>
+      </section>
+
+      <!-- ===================== INDUSTRY EXPERIENCE SECTION ===================== -->
+      <section class="industry-experience">
+        <h3>My Industry Experience</h3>
+        <section class="row justify-content-center">
+          <div class="industry-card align-self-start card col-8">
+            <div class="card-body">
+              <img
+                class="bevi-logo"
+                src="/images/bevi-logo.jpeg"
+                alt="logo of the bevi company"
+              />
+
+              <video
+                autoplay
+                loop
+                muted
+                playsinline
+                aria-label="demo video of the Bevi smart water dispenser product Sean worked on as a Software Engineer in Test during his co-op"
+              >
+                <source src="/videos/bevi-demo-video.mp4" type="video/mp4" />
+              </video>
+              <hr />
+
+              <div
+                id="beviCarousel"
+                class="carousel slide"
+                data-bs-ride="false"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h4 class="industry-sub-header">Role</h4>
+                    <p class="card-text col-12">
+                      I came in as a Software Engineer in Test but the role
+                      turned into something bigger than that pretty quickly. My
+                      core responsibility was owning the automated testing
+                      pipeline, but I ended up working across product, design,
+                      and hardware teams to validate functionality at every
+                      level. That cross-functional exposure gave me a much
+                      broader view of how software actually ships inside a real
+                      company.
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h4 class="industry-sub-header">Workflow Optimization</h4>
+                    <p class="card-text col-12">
+                      A big part of what I focused on was making the testing
+                      workflow faster and more reliable. Using CircleCI I built
+                      and maintained a CI/CD pipeline integrated with GitHub
+                      that automatically builds APKs, distributes them across
+                      Android emulators, and runs conditional test suites based
+                      on branch type. I also worked heavily with Xray, Testmo,
+                      and Jira to manage test cases, track coverage, and keep
+                      the team aligned on quality across sprints. The goal was
+                      always the same, reduce the time between a code change and
+                      a confident deployment.
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h4 class="industry-sub-header">Languages and Libraries</h4>
+                    <p class="card-text col-12">
+                      I worked across two of Bevi's front end projects, writing
+                      automated UI tests in both Kotlin with the Espresso
+                      testing framework and TypeScript with Playwright. Both
+                      required building foundational test architecture from
+                      scratch using OOP principles and the Page Object Model to
+                      keep tests maintainable as the product grew.
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <h4 class="industry-sub-header">
+                      Agentic Coding with Claude
+                    </h4>
+                    <p class="card-text col-12">
+                      The work I am most proud of from this co-op was building
+                      an agentic testing workflow using Claude Code. I created
+                      Claude skills that take a feature description and
+                      automatically generate structured test cases, then pass
+                      those into a second skill that writes the actual
+                      automation code. I built this for both the Kotlin and
+                      TypeScript projects, so the same pipeline could produce
+                      Espresso tests or Playwright tests depending on the
+                      context. It dramatically cut the time from a new feature
+                      to full test coverage and is one of the clearest examples
+                      I have seen of AI making a real difference in a software
+                      development workflow.
+                    </p>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#beviCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#beviCarousel"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="skill-fork">
+          <div class="fork-stem"></div>
+        </div>
+        <h4 class="fork-header">Core Skills</h4>
+        <div class="skill-fork">
+          <div class="fork-stem"></div>
+          <div class="fork-branches">
+            <div class="fork-branch">
+              <img
+                src="images/typescript.png"
+                alt="typescript logo indicating sean worked with typescript in his co-op"
+              />
+            </div>
+            <div class="fork-branch">
+              <img
+                src="images/android-logo.webp"
+                alt="android studio logo indicating sean worked with this tool"
+              />
+            </div>
+            <div class="fork-branch">
+              <img
+                src="images/circle-ci-logo.png"
+                alt="circle ci logo indicating sean worked with circle ci during his co-op"
+              />
+            </div>
+            <div class="fork-branch">
+              <img
+                src="images/claude-logo.png"
+                alt="claude logo indicating sean worked with claude during his co-op"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== PROJECTS SECTION ===================== -->
+      <section class="projects">
+        <h2 class="projects-top-header">My Projects</h2>
+        <hr />
+        <div class="row justify-content-center">
+          <div class="flip-card col-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front flip-card-1">
+                <h3>EuroTour</h3>
+                <p class="flip-card-tagline">
+                  Smarter Travel, Stronger Insights, One Europe.
+                </p>
+                <video
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  aria-label="video demo of EuroTour, an online web app designed to bring functionality to 3 personas regarding user road data. Planning material for travelers, country level road data on various metrics for policy makers, and post entries and data visualization for researchers"
+                >
+                  <source src="videos/euro-tour.mp4" type="video/mp4" />
+                </video>
+                <div class="tech-tags">
+                  <h4 class="tech-stack-header">Key Tech</h4>
+                  <span class="tech-tag">Machine Learning</span>
+                  <span class="tech-tag">Data Visualization</span>
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Flask API</span>
+                  <span class="tech-tag">StreamLit</span>
+                  <span class="tech-tag">Docker</span>
+                  <span class="tech-tag">MySQL</span>
+                </div>
+              </div>
+              <div class="flip-card-back flip-card-1-back">
+                <h3>What is EuroTour?</h3>
+                <p class="col-8">
+                  While abundant public data exists on road quality, GDP,
+                  tourism metrics, and regional factors, no single platform
+                  connects these insights meaningfully. EuroTour changes that by
+                  synthesizing complex datasets through machine learning
+                  algorithms, delivering personalized experiences for each user
+                  persona. Travelers discover optimized travel destinations and
+                  personalized attractions. Tourism Directors use predictive
+                  analytics and multi-factor analysis to guide tourism policy.
+                  Researchers analyze validated visualizations to conduct
+                  comparative studies and publish findings within the academic
+                  community. From aspiring tourists to national officials to
+                  academic professionals, EuroTour transforms scattered
+                  statistics into actionable intelligence.
+                </p>
+                <a
+                  href="https://github.com/swbehan/EuroTour"
+                  class="btn btn-outline-dark mt-3 col-4 back-flip-card-button"
+                  >View GitHub</a
+                >
+                <a
+                  href="https://github.com/AidanKelly50/ASMG"
+                  class="btn btn-outline-dark mt-3 col-4 back-flip-card-button"
+                  >View Blog</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card col-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front flip-card-2">
+                <h3>RouteReady</h3>
+                <p class="flip-card-tagline-2">
+                  Your complete hiking companion for discovering and planning
+                  outdoor adventures.
+                </p>
+                <video
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  aria-label="video demo of routeReady, a project that aids users in planning, finding and executing hikes/bikes/etc all across the united states."
+                >
+                  <source src="videos/RouteReady.mp4" type="video/mp4" />
+                </video>
+                <div class="tech-tags">
+                  <h4 class="tech-stack-header">Key Tech</h4>
+                  <span class="tech-tag">Supabase</span>
+                  <span class="tech-tag">Vite</span>
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Tailwind CSS</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Javascript</span>
+                </div>
+              </div>
+              <div class="flip-card-back flip-card-2-back">
+                <h3>What is RouteReady?</h3>
+                <p class="col-8">
+                  RouteReady is a comprehensive hiking platform designed to make
+                  outdoor adventures accessible, safe, and enjoyable for
+                  everyone. Browse thousands of hiking trails with detailed
+                  information, difficulty ratings, and user reviews. Record
+                  completed hikes, track your achievements, and build your
+                  personal hiking portfolio over time. Get accurate weather
+                  predictions for your planned hikes to ensure safe and
+                  enjoyable trips.
+                </p>
+                <a
+                  href="https://github.com/Oasis-NEU/f25-group-22"
+                  class="btn btn-outline-dark mt-3 col-4 back-flip-card-button"
+                  >View GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card col-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front flip-card-3">
+                <h3 class="color-text-white">Sanguine</h3>
+                <p class="flip-card-tagline-2">
+                  Two players. One board. No mercy.
+                </p>
+                <video
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  aria-label="video demo of the game sanguine where two players (either an AI or human) go against each other with a starting deck of cards to take over the most tiles on the board"
+                >
+                  <source src="videos/Sanguine.mp4" type="video/mp4" />
+                </video>
+                <div class="tech-tags">
+                  <h4 class="tech-stack-header color-text-white">Key Tech</h4>
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">IntelliJ</span>
+                  <span class="tech-tag">AI Opponents</span>
+                  <span class="tech-tag">Listener/Subscribers</span>
+                  <span class="tech-tag">Model/Controller/View</span>
+                  <span class="tech-tag">Tested Code</span>
+                </div>
+              </div>
+              <div class="flip-card-back flip-card-3-back">
+                <h3>What is Sanguine?</h3>
+                <p class="col-8">
+                  Sanguine is a two player card game where you place cards on a
+                  board to control cells and increase your points for the row.
+                  Based on Queen's Blood from Final Fantasy, the game logic is
+                  separated from the view making it easy to test and change. Two
+                  players take turns placing cards, each affecting nearby cells
+                  based on its influence pattern. Whoever has the highest card
+                  values in each row wins points from that row.
+                </p>
+                <a
+                  href="https://github.com/neu-cs3100/f25-hw07-groups-group-Are-Sean-Group"
+                  class="btn btn-outline-dark mt-3 col-4 back-flip-card-button"
+                  >View GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card col-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front flip-card-4">
+                <h3 class="color-text-white">PowerLine</h3>
+                <p class="flip-card-tagline-2">Wire it. Power it. Solve it.</p>
+                <video
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  aria-label="video demo of PowerLine game where you have to connect all the lines on the grid and spread the power out evenly across the board"
+                >
+                  <source src="videos/Powerline.mp4" type="video/mp4" />
+                </video>
+                <div class="tech-tags">
+                  <h4 class="tech-stack-header color-text-white">Key Tech</h4>
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">Eclipse</span>
+                  <span class="tech-tag">Kruskal's MST</span>
+                  <span class="tech-tag">BFS algorithms</span>
+                  <span class="tech-tag">HashMap</span>
+                  <span class="tech-tag">Dynamic Dispatch</span>
+                  <span class="tech-tag">Tested Code</span>
+                </div>
+              </div>
+              <div class="flip-card-back flip-card-4-back">
+                <h3>What is PowerLine?</h3>
+                <p class="col-8">
+                  Powerline is a puzzle game where you manipulate a grid of
+                  tiles, rotating and rearranging them to form unbroken
+                  electrical pathways connecting power sources to their
+                  endpoints. You also need to strategically reposition power
+                  supplies across the grid to ensure electricity reaches every
+                  target. With each level the grid grows more complex, demanding
+                  careful planning to untangle overlapping paths and fully power
+                  the board.
+                </p>
+                <a
+                  href="https://github.com/swbehan/PowerLineProject"
+                  class="btn btn-outline-dark mt-3 col-4 back-flip-card-button"
+                  >View GitHub</a
+                >
+                <p class="mt-2">
+                  (GitHub repo is private by default. Contact me if you would
+                  like to view the repo)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card col-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front flip-card-5">
+                <h3>Connections</h3>
+                <p class="flip-card-tagline">
+                  The obvious answer is never the right one.
+                </p>
+                <video
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  aria-label="video demo of the connections game inspired by the NYTimes online game."
+                >
+                  <source src="videos/connections.mp4" type="video/mp4" />
+                </video>
+                <div class="tech-tags">
+                  <h4 class="tech-stack-header">Key Tech</h4>
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">Eclipse</span>
+                  <span class="tech-tag">Randomization Algorithms</span>
+                  <span class="tech-tag">Inheritance</span>
+                  <span class="tech-tag">Tested Code</span>
+                </div>
+              </div>
+              <div class="flip-card-back flip-card-5-back">
+                <h3 class="color-text-white">What is Connections?</h3>
+                <p class="col-8 color-text-white">
+                  Connections is a word puzzle game where you sort 16 words into
+                  four groups of four, each sharing a hidden common thread. The
+                  words are carefully chosen to mislead you — a word may look
+                  like it belongs in one group when it fits somewhere else
+                  entirely. You only get four mistakes before the game ends. The
+                  four groups are color coded by difficulty, from
+                  straightforward yellow to the notoriously tricky purple.
+                </p>
+                <a
+                  href="https://github.com/swbehan/ConnectionsProject"
+                  class="btn btn-outline-light mt-3 col-4 back-flip-card-button"
+                  >View GitHub</a
+                >
+                <p class="color-text-white mt-2">
+                  (GitHub repo is private by default. Contact me if you would
+                  like to view the repo)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card col-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front flip-card-6">
+                <h3 class="color-text-white">Rundown</h3>
+                <p class="flip-card-tagline color-text-white">
+                  Train. Track. Recover.
+                </p>
+                <video
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  class="rundown-video"
+                  aria-label="demo video of how rundown works for the user. First you sign in, then see you daily tasks based on the plan that you generated when you first created an account. You can also create new plans for running/strength training and set plans to active or inacitve. Running tasks can only be completed with strava activity synced."
+                >
+                  <source src="videos/rundown.mp4" type="video/mp4" />
+                </video>
+                <div class="tech-tags">
+                  <h4 class="tech-stack-header-header">Key Tech</h4>
+                  <span class="tech-tag">React Native</span>
+                  <span class="tech-tag">Supabase</span>
+                  <span class="tech-tag">Claude API</span>
+                  <span class="tech-tag">Edge Functions</span>
+                  <span class="tech-tag">Realtime Sync</span>
+                  <span class="tech-tag">Expo Router</span>
+                  <span class="tech-tag">Strava OAuth</span>
+                </div>
+              </div>
+              <div class="flip-card-back flip-card-6-back">
+                <h3>What is Rundown?</h3>
+                <p class="col-6">
+                  Rundown is an AI powered training companion for runners and
+                  athletes. It generates personalized daily training plans,
+                  syncs with Strava to automatically track completed workouts,
+                  and delivers nightly coaching feedback based on what you
+                  actually did versus what you planned. Built with React Native,
+                  Supabase, and the Claude API, it gives athletes the kind of
+                  intelligent, adaptive coaching that used to require a human
+                  coach.
+                </p>
+                <a
+                  href="https://github.com/swbehan/Rundown"
+                  class="btn btn-outline-dark mt-3 col-4 back-flip-card-button"
+                  >View GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== AI / CAREER GOALS / ADAPTING SECTION ===================== -->
+      <section class="people-progression-perseverance row">
+        <div class="col-6 people-text">
+          <h4>How is AI involved?</h4>
+          <p>
+            AI has genuinely changed how I work as a developer. At my co-op at
+            Bevi, I use it to accelerate understanding of unfamiliar code,
+            pressure-test my own approaches before implementing them, and
+            compress the feedback loop on debugging. On the project side,
+            building Rundown would have taken me twice as long without it. I
+            came in knowing Java but React Native, Supabase Edge Functions, and
+            OAuth flows were all new territory. AI let me learn by doing instead
+            of learning by reading docs for hours before writing a single line.
+            The key thing I've figured out is that it works best as a thinking
+            partner, not an answer machine. When I explain my problem and
+            reasoning first, I actually understand what comes back. That habit
+            has made me a sharper engineer overall.
+          </p>
+        </div>
+        <div class="col-6 perseverance-text">
+          <h4>Where am I headed?</h4>
+          <p>
+            I'm drawn toward companies at the intersection of endurance sports
+            and technology like Strava, Garmin, Coros, New Balance, Hoka, and
+            similar brands building the tools that serious athletes actually
+            depend on. What I want to bring to those environments is a
+            combination of strong software engineering fundamentals and a
+            genuine understanding of how AI fits into a modern development
+            workflow. I'm a competitive distance runner myself, so I'm not just
+            building for users I've read about. I understand the product from
+            the inside.
+          </p>
+        </div>
+        <div class="col-6 people-text">
+          <h4>Adapting to a dynamic world</h4>
+          <p>
+            The pace of change in software development isn't slowing down, and
+            I've stopped trying to keep up with every tool and started focusing
+            on how to learn fast in any environment. Between picking up React
+            Native mid-project, integrating APIs I'd never touched, and
+            navigating a professional codebase at my co-op with minimal
+            hand-holding, I've gotten comfortable with the uncomfortable.
+            Adapting quickly isn't a skill I'm developing, it's already how I
+            work.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer-style">
+      <h3>Connect with Me Professionally!</h3>
+      <ul>
+        <li>
+          Connect on LinkedIn:
+          <a href="https://www.linkedin.com/in/sean-behan-/">Sean Behan</a>
+        </li>
+        <li>
+          Visit my
+          <a href="https://github.com/swbehan">Github</a>
+        </li>
+      </ul>
+    </footer>
+
+    <script type="module" src="./js/experience.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
