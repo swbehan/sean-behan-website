@@ -599,12 +599,15 @@ footer h3 {
 
 .industry-experience h3,
 .sean-professional-intro-section h3,
+.sean-professional-intro-section h2,
 .northeastern-club-section h3,
 .never-looked-back h3,
+.never-looked-back h2,
 .key-stats h3,
 .favorite-movies h3,
 .favorite-music h3,
-.hobbies-blurb h3 {
+.hobbies-blurb h3,
+.hobbies-blurb h2 {
   display: block;
   text-align: center;
   font-size: clamp(24px, 4vw, 50px);
