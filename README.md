@@ -18,9 +18,7 @@ My personal portfolio site. Four pages covering my CS work, my running, and the 
 
 ## Class Link
 
-<!-- TODO: paste class URL below -->
-
-[Web Development at Northeastern University](https://example.com)
+[Web Development at Northeastern University](https://johnguerra.co/classes/webDevelopment_online_summer_2026/)
 
 ---
 
@@ -42,8 +40,6 @@ Beyond the content, I wanted to actually write a site from scratch rather than g
 ---
 
 ## Screenshot
-
-<!-- TODO: add a screenshot.png of the homepage to the repo root, then this image will render -->
 
 ![Homepage screenshot](images/home-page-screen-shot.png)
 
