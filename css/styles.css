@@ -1243,11 +1243,25 @@ footer h3 {
   background-color: #0891b2;
 }
 
+.flip-card-1-game {
+  background-color: #c4a484;
+}
+.flip-card-1-back-game {
+  background-color: lightgreen;
+}
+
 .flip-card-2 {
   background-color: #059669;
 }
 .flip-card-2-back {
   background-color: white;
+}
+
+.flip-card-2-game {
+  background-color: #0d98ba;
+}
+.flip-card-2-back-game {
+  background-color: lightgrey;
 }
 
 .flip-card-3 {
