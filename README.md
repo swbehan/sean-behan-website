@@ -43,6 +43,9 @@ Beyond the content, I wanted to actually write a site from scratch rather than g
 
 ![Homepage screenshot](images/home-page-screen-shot.png)
 
+Website Thumbnail
+![Website Thumbnail](images/home-page-thumbnail.png)
+
 ---
 
 ## Instructions to Build
