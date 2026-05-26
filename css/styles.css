@@ -946,6 +946,12 @@ footer h3 {
   height: auto;
   border-radius: 20px;
   margin-bottom: 20px;
+  background-color: white;
+}
+
+.bevi-credit {
+  color: lightgray;
+  font-size: 14px;
 }
 
 .industry-experience section div {
@@ -968,7 +974,6 @@ footer h3 {
   opacity: 1;
 }
 
-/* Fixed width caused overflow on mobile — now uses max-width */
 .industry-card {
   width: 100%;
   max-width: 60rem;
@@ -976,7 +981,6 @@ footer h3 {
   text-align: center;
 }
 
-/* Bevi video scales to container on mobile */
 .industry-card video {
   width: 100%;
   max-width: 800px;
@@ -1000,7 +1004,6 @@ footer h3 {
   margin-top: 15px;
 }
 
-/* Carousel min-height prevents jumping on slide change */
 .carousel-item {
   min-height: clamp(200px, 30vw, 400px);
 }
@@ -1075,6 +1078,11 @@ footer h3 {
   margin-bottom: 0;
   text-align: center;
   font-size: clamp(24px, 4vw, 50px);
+}
+
+.tool-credit {
+  font-size: 12px;
+  margin-top: 20px;
 }
 
 /* =============================================================================

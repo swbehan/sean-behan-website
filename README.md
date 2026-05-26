@@ -157,9 +157,12 @@ MDN docs I leaned on while writing the CSS:
 
 ---
 
-## Credits
+## Credits & Attributions
 
-The double-sided timeline on the running and hobbies pages is adapted from [MDBootstrap's timeline template](https://mdbootstrap.com/docs/standard/extended/timeline/). The base CSS for the vertical line and the alternating card layout came from there. The content and color tweaks are mine.
+- **Bevi®** — Logo and video referenced for portfolio purposes only. All rights belong to Hydration Labs, Inc. (Bevi®). Formal permission recieved.
+- **TypeScript, Android Studio, CircleCI, and Claude** — Logos are trademarks of their respective owners and are used here for portfolio reference purposes only.
+- **Game cover art and images on Hobbies Page** — Are the property of their respective publishers. Used here for portfolio reference purposes only.
+- **Timeline component** — The double-sided timeline on the running and hobbies pages is adapted from [MDBootstrap's timeline template](https://mdbootstrap.com/docs/standard/extended/timeline/). The base CSS for the vertical line and the alternating card layout came from there. The content and color tweaks are mine.
 
 ---
 
