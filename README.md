@@ -172,3 +172,7 @@ MDN docs I leaned on while writing the CSS:
 ## License
 
 MIT. See the [LICENSE](LICENSE) file.
+
+## Comment
+
+Sean, I looked through your website and GitHub repository and you did a phenomenal job! The front-end looks appealing, and you put a lot of thorough detail into each website page. You used every component required for this particular project such as ES6, ESlint, Bootstrap5, etc. and used proper formatting for your code with the use of Prettier and W3C. You also use classes for identifying elements appropriately. One little thing I noticed about your HTML files is that one of the images you display on your website (./images/favicon.png) does not use an alt tag. Other than that, your project seemed to have met all the rubric's criteria and I believe that your website would really stand out to recruiters. Great job!
